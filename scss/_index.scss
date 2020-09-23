@@ -1,0 +1,86 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 10px;
+  height: 50px;
+  justify-items: center;
+
+  .menu {
+    @include flex_center(row);
+
+    span {
+      position: relative;
+      vertical-align: middle;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 0 20px 0 0;
+
+      &:hover {
+        background-color: $gray_color;
+      }
+    }
+
+    a {
+      font-size: 15px;
+      font-family: $font_1;
+      color: $main_color;
+      font-weight: 550;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  // npm i -g sass
+
+  .logo {
+    @include flex_center(row);
+
+    img {
+      height: 35px;
+    }
+  }
+
+  .btns {
+    padding-right: 20px;
+
+    @include flex_center(row);
+
+    button {
+      color: $white_color;
+      background-color: $btns_color;
+      border: 0;
+      padding: 10px 15px;
+      margin: 0 10px 0 0;
+      border-radius: 5px;
+      font-family: $font_1;
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 600;
+    }
+  }
+}
+
+.main-container {
+  width: 100%;
+  border: 1px solid transparent;
+  background-color: $gray_color;
+  text-align: center;
+  height: 200px;
+
+  h6 {
+    margin: 15px 0 !important;
+    font-size: 10px;
+    color: $gray_color_1;
+    font-weight: 200 !important;
+    font-family: $font_1;
+  }
+}
