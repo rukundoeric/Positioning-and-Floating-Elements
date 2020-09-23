@@ -68,21 +68,21 @@ body {
 .main-container {
   border: 1px solid transparent;
 
-  section {
-    &:nth-of-type(1) {
-      text-align: center;
-      background-color: $gray_color;
-      border: 1px solid $gray_color;
-      height: 200px;
+  .advertisement {
+    text-align: center;
+    background-color: $gray_color;
+    border: 1px solid $gray_color;
+    height: 200px;
 
-      h6 {
-        font-size: 10px;
-        color: $gray_color_1;
-        font-weight: 200 !important;
-        font-family: $font_1;
-      }
+    h6 {
+      font-size: 10px;
+      color: $gray_color_1;
+      font-weight: 200 !important;
+      font-family: $font_1;
     }
+  }
 
+  section {
     &:nth-of-type(2) {
       @include flex_center(column);
 
@@ -123,6 +123,71 @@ body {
 
             span {
               color: $gray_color_5;
+            }
+          }
+        }
+      }
+    }
+
+    &:nth-of-type(4) {
+      @include flex_center(column);
+
+      & > div {
+        width: 50%;
+        margin: 30px 0 0 0;
+
+        & > div {
+          &:nth-of-type(1) {
+            p {
+              color: $gray_color_4;
+              font-size: 15px;
+              font-weight: 600;
+            }
+          }
+
+          &:nth-of-type(2) {
+            display: flex;
+            justify-content: space-between;
+
+            .time {
+              color: $gray_color_3;
+
+              @include flex-center(column);
+            }
+
+            .icons {
+              @include flex_center(row);
+
+              span {
+                background-color: $gray_color_6;
+                width: 25px;
+                height: 25px;
+                padding: 5px;
+                margin-left: 20px;
+                border-radius: 50%;
+
+                @include flex_center(row);
+              }
+
+              img {
+                &:nth-of-type(1) {
+                  width: 20px;
+                  margin-left: 20px;
+                }
+
+                &:nth-of-type(2) {
+                  width: 40px;
+                  margin-left: 20px;
+                }
+              }
+            }
+          }
+
+          &:nth-of-type(3) {
+            p {
+              font-size: 1.25rem;
+              line-height: 1.875rem;
+              font-weight: 500;
             }
           }
         }

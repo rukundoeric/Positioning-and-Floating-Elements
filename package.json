@@ -90,7 +90,8 @@
     "stylelint-scss": "^3.17.2"
   },
   "scripts": {
-    "sass": "sass --watch scss/main.scss:css/style.css"
+    "sass": "sass --watch scss/main.scss:css/style.css",
+    "start": "sass --watch scss/main.scss:css/style.css"
   },
   "repository": {
     "type": "git",
