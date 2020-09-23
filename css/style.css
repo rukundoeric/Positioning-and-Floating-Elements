@@ -72,7 +72,6 @@ body {
   text-align: center;
   background-color: #f8f8f8;
   border: 1px solid #f8f8f8;
-  height: 200px;
 }
 .main-container .advertisement h6 {
   font-size: 10px;
@@ -91,7 +90,7 @@ body {
   width: 50%;
 }
 .main-container section:nth-of-type(2) div h1 {
-  font-family: georgia, "times new roman", times, serif;
+  font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-style: italic;
   line-height: 60px;
