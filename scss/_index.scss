@@ -72,6 +72,7 @@ body {
     text-align: center;
     background-color: $gray_color;
     border: 1px solid $gray_color;
+    padding-bottom: 30px;
 
     h6 {
       font-size: 10px;
@@ -79,15 +80,182 @@ body {
       font-weight: 200 !important;
       font-family: $font_1;
     }
+
+    img {
+      max-width: 80%;
+      max-height: 500px;
+    }
+  }
+
+  .article-content {
+    @include flex_center(column);
+
+    & > div {
+      width: 45%;
+
+      p {
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+        font-weight: 500;
+      }
+
+      .subscribe {
+        @include flex_center(column);
+
+        span {
+          width: 100px;
+          border-bottom: 2px solid $gray_color_2;
+          margin: 20px 0;
+        }
+
+        label {
+          color: $main_color;
+          font-weight: 600;
+        }
+
+        a {
+          text-decoration: none;
+          color: $btns_color;
+        }
+      }
+
+      figure {
+        margin: 0 !important;
+
+        iframe {
+          width: 100%;
+          border: 0;
+          height: 400px;
+        }
+
+        figcaption {
+          color: $gray_color_4;
+          font-size: 17px;
+          /* stylelint-disable */
+          span {
+            color: $gray_color_3 !important;
+            font-size: 15px;
+          }/* stylelint-enable */
+        }
+      }
+    }
+  }
+
+  .article-image {
+    div {
+      width: 70%;
+      padding: 0;
+
+      figure {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+        img {
+          width: 100%;
+        }
+
+        figcaption {
+          font-size: 15px;
+          font-family: $font_2;
+          color: $gray_color_3;
+          line-height: 25px;
+          /* stylelint-disable */
+          span {
+            color: $gray_color_5;
+            font-size: 14px;
+          }/* stylelint-enable */
+        }
+      }
+    }
+  }
+
+  .article-image.telescop {
+    div {
+      width: 50% !important;
+    }
+  }
+
+  .conclusion-content {
+    padding-bottom: 100px;
+    /* stylelint-disable */
+    & > div {
+      width: 45%;
+      margin: 30px 0 0 0;
+
+      & > div {
+        &:nth-of-type(1) {
+          p {
+            color: $gray_color_3;
+            font-size: 13px;
+
+            a {
+              text-decoration: underline;
+              color: $gray_color_3;
+
+              &:hover {
+                text-decoration: none;
+              }
+            }
+          }
+        }
+
+        &:nth-of-type(2) {
+          display: flex;
+          justify-content: space-between;
+
+          .btn {
+            button {
+              padding: 10px 100px;
+              border-radius: 2px;
+              color: $white_color;
+              font-size: 13px;
+              font-weight: 500;
+              border: none;
+              background-color: $btns_color;
+            }
+
+            @include flex-center(column);
+          }
+
+          .icons {
+            @include flex_center(row);
+
+            span {
+              background-color: $gray_color_6;
+              width: 25px;
+              height: 25px;
+              padding: 5px;
+              margin-left: 20px;
+              border-radius: 50%;
+
+              @include flex_center(row);
+            }
+
+            img {
+              &:nth-of-type(1) {
+                width: 20px;
+                margin-left: 20px;
+              }
+
+              &:nth-of-type(2) {
+                width: 40px;
+                margin-left: 20px;
+              }
+            }
+          }
+        }
+      }
+    }/* stylelint-enable */
   }
 
   section {
-    &:nth-of-type(2) {
-      @include flex_center(column);
+    @include flex_center(column);
 
+    &:nth-of-type(2) {
       div {
         padding: 20px 0 0 0;
-        width: 50%;
+        width: 45%;
 
         h1 {
           font-family: $font_3;
@@ -97,44 +265,12 @@ body {
         }
       }
     }
-
-    &:nth-of-type(3) {
-      @include flex_center(column);
-
-      div {
-        width: 75%;
-        padding: 0;
-
-        figure {
-          margin: 0;
-          padding: 0;
-          width: 100%;
-
-          img {
-            width: 100%;
-          }
-
-          figcaption {
-            font-size: 16px;
-            font-family: $font_2;
-            color: $gray_color_3;
-            line-height: 25px;
-
-            span {
-              color: $gray_color_5;
-            }
-          }
-        }
-      }
-    }
-
+    /* stylelint-disable */
     &:nth-of-type(4) {
-      @include flex_center(column);
-
       & > div {
-        width: 50%;
+        width: 45%;
         margin: 30px 0 0 0;
-
+        
         & > div {
           &:nth-of-type(1) {
             p {
@@ -181,16 +317,68 @@ body {
               }
             }
           }
+        }
+      }/* stylelint-enable */
+    }
+  }
 
-          &:nth-of-type(3) {
-            p {
-              font-size: 1.25rem;
-              line-height: 1.875rem;
-              font-weight: 500;
+  .theory {
+    @include flex_center(column);
+    /* stylelint-disable */
+    & > div {
+      width: 65%;
+      margin-top: 30px;
+
+      .intro {
+        label {
+          font-size: 19px;
+          font-weight: 800;
+        }
+
+        p {
+          font-size: 15px;
+          color: $gray_color_3;
+        }
+      }
+
+      .items {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+
+        .item {
+          padding: 10px;
+          box-sizing: border-box;
+
+          img {
+            height: 140px;
+            width: 100%;
+          }
+
+          p {
+            span {
+              color: $main_color;
+              font-weight: 800;
+              font-size: 14px;
             }
           }
         }
       }
-    }
+
+      .article-footer {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0 0 10px;
+
+        span {
+          width: 130px;
+          border-bottom: 3px solid $main_color;
+        }
+
+        label {
+          margin: 15px 0;
+        }
+      }
+    }/* stylelint-enable */
   }
 }
