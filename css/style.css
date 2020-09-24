@@ -227,6 +227,78 @@ body {
   width: 40px;
   margin-left: 20px;
 }
+.main-container .more-readings {
+  width: 75%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.main-container .more-readings .readings-left {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.main-container .more-readings .readings-left .item-container {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.main-container .more-readings .readings-left .item-container figure {
+  width: 100%;
+  margin: 0;
+}
+.main-container .more-readings .readings-left .item-container figure figcaption {
+  float: right;
+  color: #6b6666;
+}
+.main-container .more-readings .readings-left .item-container figure img {
+  width: 100%;
+}
+.main-container .more-readings .readings-left .item-container a {
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.main-container .more-readings .readings-left .item-container a h3 {
+  margin-bottom: 3px;
+}
+.main-container .more-readings .readings-left .item-container span {
+  color: #6b6666;
+}
+.main-container .more-readings .most-popular {
+  padding: 0 30px 25px 20px;
+}
+.main-container .more-readings .most-popular ul {
+  list-style: none;
+  padding: 0 13px;
+}
+.main-container .more-readings .most-popular ul li {
+  margin: 0;
+  list-style: none;
+  padding: 20px 0;
+  border-top: 3px solid #d1d1d1;
+}
+.main-container .more-readings .most-popular ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+}
+.main-container .more-readings .headers {
+  margin: 0 15px;
+  padding: 25px 0 15px 0;
+  border-top: 3px solid black;
+}
+.main-container .more-readings .headers a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  font-weight: 700;
+}
+.main-container .more-readings .headers span {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  font-weight: 700;
+}
 .main-container section {
   display: flex;
   justify-content: center;
