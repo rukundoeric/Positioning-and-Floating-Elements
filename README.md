@@ -1,9 +1,10 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
-# Embedding images and videos
-> A structural clone of the New York Times page..
-![screenshot](./screen-shot.jpg)
 
+# Positioning and Floating Elements
+
+> A structural clone of the New York Times page..
+![screenshot](./img/screenshot.png)
 
 ## Built With
 
@@ -13,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/rukundoeric/Positioning-and-Floating-Elements/nyt-index-page/index.html)
 
 ## Getting Started
 
