@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Embedding images and videos
 > A structural clone of the New York Times page..
-![screenshot](./screen-shot.jpg)
+![screenshot](./screenshot.jpg)
 
 
 ## Built With
