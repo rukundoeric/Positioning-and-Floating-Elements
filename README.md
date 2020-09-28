@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/rukundoeric/Positioning-and-Floating-Elements/nyt-index-page/index.html)
+[Live Demo Link](https://gitcdn.xyz/cdn/rukundoeric/Positioning-and-Floating-Elements/5d71b895deed0c31e94517a83876509b7bd976f0/index.html)
 
 ## Getting Started
 
