@@ -1,0 +1,156 @@
+/* webfonts */
+@font-face {
+  font-family: "nyt-cheltenham";
+  src:
+    url("./fonts/cheltenham-italic-700.f99a0459024509f157a3352e5de4f873.woff2")
+    format("woff2"),
+    url("./fonts/cheltenham-italic-700.d53eaf3b784c4b50d1c331e1278cda67.woff")
+    format("woff"),
+    url("./fonts/cheltenham-italic-700.c690b74328fddd7feff3bc4c1c1a0cd8.ttf")
+    format("truetype");
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "nyt-franklin";
+  src:
+    url("./fonts/franklin-italic-300.c2b633d8ab72fe0bedee28c06bf0d670.woff2")
+    format("woff2"),
+    url("./fonts/franklin-italic-300.d5331cde5e4a49694ed0157c23ec7fec.woff")
+    format("woff"),
+    url("./fonts/franklin-italic-300.65cdf42a9726f89ca9c14ffad87308d8.ttf")
+    format("truetype");
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "nyt-franklin";
+  src:
+    url("./fonts/franklin-normal-300.bc7be4c5d8cacb780f896c5cbe0c0d7f.woff2")
+    format("woff2"),
+    url("./fonts/franklin-normal-300.173315ff36fdf628bbfbabac0c03a76d.woff")
+    format("woff"),
+    url("./fonts/franklin-normal-300.d1bf0bccfda41b1a77ea392b7a26d4cf.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "nyt-franklin";
+  src:
+    url("./fonts/franklin-normal-500.d6c06a3d84a57100edad5bf9b84ff739.woff2")
+    format("woff2"),
+    url("./fonts/franklin-normal-500.414758de098dc644b688afa031d35f9b.woff")
+    format("woff"),
+    url("./fonts/franklin-normal-500.1b6dc8a3d86d2a28b825482c9497a633.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "nyt-franklin";
+  src:
+    url("./fonts/franklin-italic-700.aff6e05b305e7cf33e1f757735045876.woff2")
+    format("woff2"),
+    url("./fonts/franklin-italic-700.62ad1d675b21069c67430cd671b66f38.woff")
+    format("woff"),
+    url("./fonts/franklin-italic-700.a5d605ccf65e790384c19126565ee1f6.ttf")
+    format("truetype");
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "nyt-franklin";
+  src:
+    url("./fonts/franklin-normal-700.b44c88f09ca7ce914b836d4ae72891b8.woff2")
+    format("woff2"),
+    url("./fonts/franklin-normal-700.a192db310935d8a882832e2cc83f2119.woff")
+    format("woff"),
+    url("./fonts/franklin-normal-700.aaec3c198ea6e3efd97b2b19823bf861.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "nyt-imperial";
+  src:
+    url("./fonts/imperial-normal-400.2531995fefd3b997f9c4d564ebe89268.woff2")
+    format("woff2"),
+    url("./fonts/imperial-normal-400.e4d8bd522cfcbc36c1b2368baeb54c32.woff")
+    format("woff"),
+    url("./fonts/imperial-normal-400.a5270edf37ca346207a3a6ff637a022a.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "nyt-imperial";
+  src:
+    url("./fonts/imperial-normal-700.796334d8a16a55d6fa9e4cbf896ac9de.woff2")
+    format("woff2"),
+    url("./fonts/imperial-normal-700.a9670f80042b4daa8a7f0a8e58cd856a.woff")
+    format("woff"),
+    url("./fonts/imperial-normal-700.b41c6e33cfd281d679e8586dfd1b7a9e.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "nyt-franklin-tv";
+  src:
+    url("./fonts/franklin-tv-normal-300.afe95a157afb95a163b72c02724ed615.woff2")
+    format("woff2"),
+    url("./fonts/franklin-tv-normal-300.f46cdf8d3092071d3d4baff08892032e.woff")
+    format("woff"),
+    url("./fonts/franklin-tv-normal-300.fbe64393c9b7405c93e7be6761890923.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "nyt-cheltenham";
+  src:
+    url("./fonts/cheltenham-normal-700.530cfb72378419eedb60da7e266ad5f1.woff2")
+    format("woff2"),
+    url("./fonts/cheltenham-normal-700.738608727fc7c5797889e17788508b26.woff")
+    format("woff"),
+    url("./fonts/cheltenham-normal-700.85ca4d109571e1e0084aace5a31f049c.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "nyt-cheltenham-small";
+  src:
+    url("./fonts/cheltenham-small-normal-400.108ce298d451197b23fefceb3e36959f.woff2")
+    format("woff2"),
+    url("./fonts/cheltenham-small-normal-400.9dfa21a5aff2f7bdf7b929b8967700bd.woff")
+    format("woff"),
+    url("./fonts/cheltenham-small-normal-400.8b8141b3a4ec5c4f8028ee735f8c3107.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "nyt-cheltenham";
+  src:
+    url("./fonts/cheltenham-normal-500.a22ae3ed1e775ce90ced16f1822f4ddc.woff2")
+    format("woff2"),
+    url("./fonts/cheltenham-normal-500.229eebd8069abe2c2253b203c9179e25.woff")
+    format("woff"),
+    url("./fonts/cheltenham-normal-500.fe8ceaea50c19a1dfffe1bbfa15e283e.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}

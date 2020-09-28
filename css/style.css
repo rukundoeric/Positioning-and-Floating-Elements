@@ -1,3 +1,6 @@
+/* IMPORTING WEB FONTS */
+@import "/css/webfonts.css";
+
 /* VARIABLES */
 :root {
   --main-color: #000;
